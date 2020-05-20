@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.services-and-pricing-div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Zilla Slab', serif;
+    overflow-x: hidden;
+}
+
+.pricing-ul {
+    display: flex;
+    flex-direction: column;
+    list-style-image: url('../images/checkbox3.png');
+    align-content: center;
+}
+
+.pricing-li {
+    /* display: flex; */
+    margin-top: 3px;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.company-goal,
+.water-heater-table-title,
+.water-softener-table-title {
+    font-size: 46px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    text-align: center;
+    color: rgba(0, 68, 255, 0.918);;
+}
+
+.services-pricing-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    width: 100%;
+}
+
+.services-pricing-row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.services-pricing-row-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.services-pricing-row-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.services-pricing-row-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.image-div {
+    min-width: 35%;
+}
+
+.solder-copper-pipe-image {
+    max-width: 500px;
+    /* border-radius: 6pt; */
+    margin-right: 50px;
+}
+
+.hot-shower-image {
+    max-width: 600px;
+    min-width: 600px;
+    margin-right: ;
+}
+
+.copper-pipes-image {
+    position: relative;
+    right: 0;
+    /* top: 0; */
+    width: 100%;
+}
+
+/* .pricing-text-div {
+
+} */
+
+.pricing-text-p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 28px;
+    max-width: 700px;
+}
+
+.water-heater-div {
+    margin-right: 135px;
+    margin-left: 50px;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.table-cell {
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.table-cell-descriptor {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+#pricing-text-p {
+    margin-top: 16px;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* .between-sections {
+    border: none;
+    border: 3px #333;
+    border-top: 3px #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+} */
+
+.video-h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.video-p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
