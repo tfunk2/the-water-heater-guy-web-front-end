@@ -34,14 +34,14 @@ export default function ServiceAndPricing (props) {
             </section>
             <hr className="between-sections" />
             <section className="services-pricing-row-2">
-                <div className="image-div">
+                {/* <div className="image-div">
                     <img 
                         className="solder-copper-pipe-image" 
                         alt="solder-copper-pipe" 
                         src={solderCopperPipe}
                     >
                     </img>
-                </div>
+                </div> */}
                 <div className="water-heater-div">
                     <h1 className="water-heater-table-title">Water Heaters</h1>
                     <hr/>
@@ -83,9 +83,6 @@ export default function ServiceAndPricing (props) {
                         <hr/>
                     </div>
                 </div>
-            </section>
-            <hr className="between-sections" />
-            <section className="services-pricing-row-3">
                 <div className="water-heater-div">
                     <h1 className="water-softener-table-title">Water Softeners and Filters</h1>
                     <hr/>
@@ -114,6 +111,10 @@ export default function ServiceAndPricing (props) {
                         <hr/>
                     </div>
                 </div>
+            </section>
+            <hr className="between-sections" />
+            {/* <section className="services-pricing-row-3">
+                
                 <div className="image-div">
                     <img 
                         className="hot-shower-image" 
@@ -123,7 +124,7 @@ export default function ServiceAndPricing (props) {
                     </img>
                 </div>
             </section>
-            <hr className="between-sections" />
+            <hr className="between-sections" /> */}
             <section className="services-pricing-row-4">
                 <div className="video-container">
                     <iframe
@@ -163,6 +164,7 @@ export default function ServiceAndPricing (props) {
                     </iframe>
                 </div>
             </section>
+            <hr className="between-sections" />
             <div className="square-logo-div">
                 <img className="square-logo" alt="square payment logo" src={squareLogo}></img>
             </div>
