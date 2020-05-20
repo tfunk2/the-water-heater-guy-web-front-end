@@ -3,6 +3,9 @@ import copperPipes from '../../images/copper-pipes-1.png'
 import '../../stylesheets/ServicesAndPricing.css'
 import solderCopperPipe from '../../images/solder-copper-pipe.png'
 import hotShower from '../../images/hot-shower.jpg'
+import squareLogo from '../../images/square-logo.png'
+import checkbox from '../../images/checkbox.png'
+
 
 export default function ServiceAndPricing (props) {
     return (
@@ -16,16 +19,16 @@ export default function ServiceAndPricing (props) {
                     <br/>
                     <p className="pricing-text-p"><span className="bold-text">My prices</span> include everything needed for most installations: </p>
                     <ul className="pricing-ul">
-                        <li className="pricing-li">A quality appliance</li>
-                        <li className="pricing-li">Installation materials including a new shut off valve (when appropriate)</li>
-                        <li className="pricing-li">Salt for water softeners</li>
-                        <li className="pricing-li">Labor</li>
-                        <li className="pricing-li">Haul-off of the old appliance</li>
-                        <li className="pricing-li">Even taxes are covered</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>A quality appliance</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>Installation materials including a new shut off valve (when appropriate)</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>Salt for water softeners</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>Labor</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>Haul-off of the old appliance</li>
+                        <li className="pricing-li"><img className="checkbox" alt="green checkbox" src={checkbox}></img>Even taxes are covered</li>
                     </ul>
                     <p id="pricing-text-p" className="pricing-text-p">I also test for pressure and expansion problems to identify potential hazards at <span className="bold-text">no charge.</span></p>
                 </div>
-                <div className="image-div">
+                <div>
                     <img className="copper-pipes-image" alt="copper pipes" src={copperPipes}></img>
                 </div>
             </section>
@@ -47,6 +50,7 @@ export default function ServiceAndPricing (props) {
                             <p className="table-cell">Service Call</p>
                             <p className="table-cell">$105</p>
                         </div>
+                        <hr/>
                         <div className="table-row">
                             <p className="table-cell">50 gal. Electric</p>
                             <p className="table-cell">$950</p>
@@ -90,6 +94,7 @@ export default function ServiceAndPricing (props) {
                             <p className="table-cell">Service Call</p>
                             <p className="table-cell">$105</p>
                         </div>
+                        <hr/>
                         <div className="table-row">
                             <p className="table-cell">40,200 Grain</p>
                             <p className="table-cell">$1,050</p>
@@ -117,7 +122,7 @@ export default function ServiceAndPricing (props) {
                     >
                     </img>
                 </div>
-            </section> 
+            </section>
             <hr className="between-sections" />
             <section className="services-pricing-row-4">
                 <div className="video-container">
@@ -158,6 +163,9 @@ export default function ServiceAndPricing (props) {
                     </iframe>
                 </div>
             </section>
+            <div className="square-logo-div">
+                <img className="square-logo" alt="square payment logo" src={squareLogo}></img>
+            </div>
         </div>
     )
 }

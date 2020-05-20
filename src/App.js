@@ -3,6 +3,7 @@ import './App.css';
 import HeaderContainer from "./components/containers/HeaderContainer"
 import NavBar from "./components/items/NavBar"
 import ServicesAndPricing from "./components/containers/ServicesAndPricing"
+import Home from "./components/containers/Home"
 
 class App extends Component {
 
@@ -17,7 +18,7 @@ class App extends Component {
   activePage = () => {
     switch(this.state.activeTab) {
       case "home":
-        return <></>
+        return <Home />
       case "services-and-pricing":
         return <ServicesAndPricing />
       case "service-area":

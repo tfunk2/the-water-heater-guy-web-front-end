@@ -149,3 +149,13 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Zilla Slab', serif;
 }
 
+.image-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.number-image {
+    min-width: 60%;
+    max-width: 60%;
+}
