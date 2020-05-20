@@ -4,6 +4,7 @@ import HeaderContainer from "./components/containers/HeaderContainer"
 import NavBar from "./components/items/NavBar"
 import ServicesAndPricing from "./components/containers/ServicesAndPricing"
 import Home from "./components/containers/Home"
+import ServiceArea from "./components/containers/ServiceArea"
 
 class App extends Component {
 
@@ -22,7 +23,7 @@ class App extends Component {
       case "services-and-pricing":
         return <ServicesAndPricing />
       case "service-area":
-        return <></>
+        return <ServiceArea />
       case "contact-me":
         return <></>
       case "testimonials":

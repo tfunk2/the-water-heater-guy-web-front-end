@@ -10,6 +10,7 @@ export default function Home (props) {
                 <h2 id="main-title" className="title">A Water Heater Expert</h2>
                 <h3 id="sub-title" className="title">at your service since 2009</h3>
             </div>
+            {/* <hr className="between-sections" /> */}
             <div className="text-div">
                 <p className="opening-p">I have specialized in water heaters for over a decade, and have personally repaired or replaced approximately <span className="bold-text-number">10,000</span>  water heaters.</p>
                 <img className="mike-pic-1" alt="Mike fixing water heater" src={mike}></img>

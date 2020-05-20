@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.map-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-text {
+    font-size: 36px;
+    margin-left: 25px;
+    margin-right: 12px;
+    margin-top: 5px;
+    max-width: 500px;
+}
+
+hr {
+    width: 100%;
+}
+
+#rough-outline-text {
+    max-width: 800px;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.service-map {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 12px;
+}
+
+.city-list {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 550px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.map-inner-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-area-title {
+    font-size: 56px;
+    color: rgba(0, 55, 255, 0.918);
+}
+
+#community-text {
+    min-width: 850px;
+    max-width: 850px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.bold-missouri {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.community-hr {
+    max-width: 850px;
+    margin-left: 20px;
+}
