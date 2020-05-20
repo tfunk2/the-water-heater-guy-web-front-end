@@ -1,5 +1,7 @@
 import React from 'react'
 import Logo from '../../images/Water-Heater-Guy-Logo.png'
+import numberImage from '../../images/Water-Heater-Guy-Phone-Number.png'
+
 
 export default function Header(props) {
     return(
@@ -10,10 +12,14 @@ export default function Header(props) {
             className="main-logo"
             >
             </img>
-            <section className="title-section">
-                <h2 id="main-title" className="title">The Electric Water Heater Expert</h2>
-                <h3 id="sub-title" className="title">At your service since 2009</h3>
-            </section>
+            <div className="image-div">
+                <img 
+                    className="number-image"
+                    alt="816-903-HOTT" 
+                    src={numberImage}
+                >
+                </img>
+            </div>
         </div>
     )
 }
