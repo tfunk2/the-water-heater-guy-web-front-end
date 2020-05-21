@@ -5,6 +5,7 @@
     font-weight: 400;
     font-family: 'Zilla Slab', serif;
     border-color: rgb(112, 112, 112);
+    overflow-x: hidden;
 }
 
 .text-div {

@@ -7,8 +7,8 @@ export default function ServiceArea (props) {
         <div className="service-area-div">
             <div className="map-div">
                 <div className="map-inner-div">
-                    <hr/>
                     <h1 className="service-area-title">Service Area</h1>
+                    <hr/>
                     <p className="map-text">In order to control expenses, I limit my services to north of the river and south of Highway-36.</p>
                     <br/>
                     <p className="map-text">Sorry, I do not service any part of Kansas.</p>
