@@ -80,7 +80,7 @@ export default function ServiceAndPricing (props) {
                             <p className="table-cell">Expansion Tank</p>
                             <p className="table-cell">$200</p>
                         </div>
-                        <hr/>
+                        <hr className="bottom-hr"/>
                     </div>
                 </div>
                 <div className="water-heater-div">
