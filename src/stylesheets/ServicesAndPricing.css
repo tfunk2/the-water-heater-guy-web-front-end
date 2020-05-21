@@ -57,7 +57,7 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     width: 100%;
 }
 
@@ -92,6 +92,10 @@
     margin-bottom: 20px;
     margin-top: 20px;
     width: 100%;
+}
+
+.bottom-hr {
+    margin-bottom: 25px;
 }
 
 .image-div {

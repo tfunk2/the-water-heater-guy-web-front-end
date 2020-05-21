@@ -55,7 +55,7 @@ export default class ContactMe extends Component {
                     <div className="form-div">
                     <h1 className="contact-me-title">Enter some / all of your contact information and leave a message or ask question! <br/>(Great option after normal business hours)</h1>
                         <form 
-                            name="contact-messages" 
+                            name="contact_messages" 
                             className="contact-me-form"
                             onSubmit={this.handleSubmit} 
                             autoComplete="off"
