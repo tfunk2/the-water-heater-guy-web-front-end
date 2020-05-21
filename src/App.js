@@ -7,6 +7,7 @@ import Home from "./components/containers/Home"
 import ServiceArea from "./components/containers/ServiceArea"
 import ContactMe from "./components/containers/ContactMe"
 import Testimonials from "./components/containers/Testimonials"
+import About from "./components/containers/About"
 
 class App extends Component {
 
@@ -31,7 +32,7 @@ class App extends Component {
       case "testimonials":
         return <Testimonials />
       case "about":
-        return <></>
+        return <About />
       default:
         return <></> // Home page?
     }
