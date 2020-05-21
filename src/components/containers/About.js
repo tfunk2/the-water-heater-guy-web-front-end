@@ -6,7 +6,7 @@ export default function About (props) {
     return (
         <div className="about-div">
             <div className="about-text-div">
-                <h1 className="about-h1" id="main-title">Who is "The Water Heater Guy?</h1>
+                <h1 className="about-h1" id="main-title">Who is "The Water Heater Guy"?</h1>
                 <p className="about-p-text"><span className="about-bold-text">Mike Strahl</span> took over the family business from his Dad, Arnold Saathoff who had been servicing and installing water heaters since 2000.  Mike renamed the business "The Water Heater Guy" and has personally serviced or installed approximately 10,000 water heaters and has increased his knowledge and expertise each time. He has expanded the business to meet the needs of his customers, and prides himself on quality work at a fair price. </p>
                 <hr/>
                 <h1 className="about-h1" id="sub-title">Personal Background</h1>
