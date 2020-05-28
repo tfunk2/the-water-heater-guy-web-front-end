@@ -18,8 +18,8 @@
 
 .opening-p {
     /* margin-top: 50px; */
-    max-width: 30%;
-    font-size: 36px;
+    max-width: 600px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -28,10 +28,10 @@
     font-weight: bold;
 }
 
-.mike-pic-1 {
+.mike-pic-2 {
     margin-top: 25px;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 600px;
+    min-width: 600px;
 }
 
 .home-div {
@@ -46,4 +46,10 @@
     flex: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.opening-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
 }

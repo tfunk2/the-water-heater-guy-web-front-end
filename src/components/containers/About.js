@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../stylesheets/About.css'
 import wrenches from '../../images/wrenches.jpg'
+import Mike4 from '../../images/IMG_4425.jpg'
 
 export default function About (props) {
     return (
@@ -12,10 +13,13 @@ export default function About (props) {
                 <h1 className="about-h1" id="sub-title">Personal Background</h1>
                 <p className="about-p-text">Mike was born in Kansas City, MO, and graduated with honors from Kearney State College (Nebraska) in 1989 with a B.S. in Airway Computer Science, and a minor in Military Science. He then served as a transportation officer in the U.S. Army and is a Desert Storm veteran.</p>
                 {/* <br/> */}
-                <p className="about-p-text">Mike feels blessed to be married to a wonderful woman, Kate who accepts his long and unpredictable hours with a smile. They have four children and four grandchildren.  They attend Liberty Christian Fellowship in Liberty, MO, and reside at the northern edge of Kansas City, MO. </p>
+                <p className="about-p-text">Mike feels blessed to be married to a wonderful woman, Kate, who accepts his long and unpredictable hours with a smile. They have four children and four grandchildren.  They attend Liberty Christian Fellowship in Liberty, MO, and reside at the northern edge of Kansas City, MO. </p>
+                <div className="wrench-image-div">
+                    <img className="wrench-image" alt="two wrenches on concrete" src={wrenches}></img>
+                </div>
             </div>
-            <div className="wrench-image-div">
-                <img className="wrench-image" alt="two wrenches on concrete" src={wrenches}></img>
+            <div className="mike-image-div">
+                <img className="mike-image" alt="mike in van" src={Mike4}></img>
             </div>
         </div>
     )

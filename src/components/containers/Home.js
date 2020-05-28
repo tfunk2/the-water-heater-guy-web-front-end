@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../stylesheets/Home.css'
 import mike from '../../images/Mike-Pic-1.png'
+import mike2 from '../../images/IMG_4426.jpg'
+import mike3 from '../../images/IMG_4404.jpg'
 import platteClayLogo from '../../images/platte-clay-logo.png'
 
 export default function Home (props) {
@@ -12,9 +14,13 @@ export default function Home (props) {
             </div>
             {/* <hr className="between-sections" /> */}
             <div className="text-div">
-                <p className="opening-p">I have specialized in water heaters for over a decade, and have personally repaired or replaced approximately <span className="bold-text-number">10,000</span>  water heaters.</p>
-                <img className="mike-pic-1" alt="Mike fixing water heater" src={mike}></img>
-                <p className="opening-p"> Let me put my experience to work for you. I offer same/next day service in most cases, and competitive pricing. </p>
+                <img className="mike-pic-2" alt="Mike in back of truck" src={mike2}></img>
+                <div className="opening-div">
+                    <p className="opening-p">I have specialized in water heaters for over a decade, and have personally repaired or replaced approximately <span className="bold-text-number">10,000</span>  water heaters.</p>
+                    <br/>
+                    <p className="opening-p"> Let me put my experience to work for you. I offer same/next day service in most cases, and competitive pricing. </p>
+                </div>
+                <img className="mike-pic-2" alt="Side of truck" src={mike3}></img>
             </div>
             <hr/>
             <div className="platte-clay-div">
