@@ -1,6 +1,7 @@
 .testimonial-div {
     padding-top: 25px;
     padding-bottom: 800px;
+    animation: fadeIn 1s;
 }
 
 .testimonial-form-div {

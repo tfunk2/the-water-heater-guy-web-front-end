@@ -25,6 +25,10 @@
     margin-left: 2%;
 }
 
+.service-area-div {
+    animation: fadeIn 1s;
+}
+
 #rough-outline-text {
     max-width: 800px;
     font-size: 28px;

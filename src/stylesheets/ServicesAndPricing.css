@@ -12,6 +12,7 @@
     margin-bottom: 10px;
     font-family: 'Zilla Slab', serif;
     overflow-x: hidden;
+    animation: fadeIn 1s;
 }
 
 .pricing-ul {

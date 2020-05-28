@@ -21,7 +21,7 @@ export default function Home (props) {
             toggle()
             interval = setInterval(() => {
                 setDisplayedTestimonial(sample(props.testimonials))
-            }, 3000)
+            }, 4000)
         }
     })
 

@@ -41,6 +41,7 @@
 
 .home-div {
     box-shadow: 5px 10px #888888;
+    animation: fadeIn 1s;
 }
 
 .home-video-div,
@@ -91,6 +92,8 @@
     min-width: 300px;
     max-width: 1200px;
     position: absolute;
+    animation: fadeIn 4s;
+    animation-iteration-count: infinite;
 }
 
 #testimonial-name {
