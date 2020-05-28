@@ -12,17 +12,32 @@ import About from "./components/containers/About"
 class App extends Component {
 
   state = {
-    activeTab: "home"
+    activeTab: "home",
+    testimonials: []
   }
 
   setActiveTab = (tabClicked) => {
     this.setState({ activeTab: tabClicked })
   }
 
+  componentDidMount() {
+    this.setTestimonials()
+  }
+
+  setTestimonials = () => {
+    fetch('http://localhost:3000/testimonials')
+      .then(response => response.json())
+      .then(testimonials => {
+        this.setState({ testimonials: testimonials })
+        console.log(testimonials)
+        console.log(this.state.testimonials)
+      })
+  }
+
   activePage = () => {
     switch(this.state.activeTab) {
       case "home":
-        return <Home />
+        return <Home actveTab={this.state.activeTab} testimonials={this.state.testimonials}/>
       case "services-and-pricing":
         return <ServicesAndPricing />
       case "service-area":

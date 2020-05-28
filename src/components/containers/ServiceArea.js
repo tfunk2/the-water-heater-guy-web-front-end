@@ -23,7 +23,7 @@ export default function ServiceArea (props) {
             <hr/>
             <div>
                 <h1 id="community-text" className="map-text">I am happy to provide service for the following <span className="bold-missouri">Missouri</span> communities, and their rural surroundings: </h1>
-                <hr className="community-hr"/>
+                <hr id="community-hr"/>
             </div>
             <div className="city-list">
                 <p className="map-text">Arley</p>

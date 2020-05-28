@@ -51,7 +51,7 @@ export default class Testimonials extends Component {
                             autoComplete="off"
                         >
                             <input placeholder="First Name Last Initial (ex. Mike S.)" onChange={this.handleChange} value={this.state.name} name="name" type="text"></input>
-                            <textarea placeholder="Share your experience..." onChange={this.handleChange} value={this.state.message} name="message" rows={10} cols={30}></textarea>
+                            <textarea maxLength="64" placeholder="Share your experience..." onChange={this.handleChange} value={this.state.message} name="message" rows={10} cols={30}></textarea>
                             <input type="submit" value="Submit"/>
                         </form>
                     </div>

@@ -80,7 +80,7 @@ export default function ServiceAndPricing (props) {
                             <p className="table-cell">Expansion Tank</p>
                             <p className="table-cell">$200</p>
                         </div>
-                        <hr className="bottom-hr"/>
+                        {/* <hr className="bottom-hr"/> */}
                     </div>
                 </div>
                 <div className="water-heater-div">
@@ -108,7 +108,7 @@ export default function ServiceAndPricing (props) {
                             <p className="table-cell">Large Capacity Whole House Filter</p>
                             <p className="table-cell">$350</p>
                         </div>
-                        <hr/>
+                        {/* <hr/> */}
                     </div>
                 </div>
             </section>

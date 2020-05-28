@@ -134,8 +134,13 @@
 }
 
 .water-heater-div {
+    margin: 20px;
     margin-right: 135px;
     margin-left: 50px;
+    box-shadow: rgba(139, 139, 139, 0.884) 4px 4px 5px 5px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 6px;
 }
 
 .table-row {
@@ -174,7 +179,8 @@
     overflow: visible;
     text-align: center;
     height: 5px; */
-    width: 100%;
+    width: 96%;
+    margin-left: 2%;
     border-color: blue;
 }
 
